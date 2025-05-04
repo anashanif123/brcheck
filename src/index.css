@@ -1,0 +1,31 @@
+@import "tailwindcss";
+/* For Webkit browsers (Chrome, Safari) */
+::-webkit-scrollbar {
+    width: 8px; /* Adjust width as needed */
+  }
+  
+  ::-webkit-scrollbar-thumb {
+    background-color: #0d56b4; /* Light blue - adjust this hex code to your exact light blue */
+    border-radius: 4px; /* Optional: for rounded corners */
+  }
+  
+  ::-webkit-scrollbar-track {
+    background-color: #1e293b; /* Darkish blue - adjust this hex code to your exact darkish blue */
+  }
+  
+  /* For Firefox */
+  /* You might need to enable this in Firefox settings */
+  /* about:config -> layout.css.scrollbar-width.enabled -> true */
+  /* Then add these styles to the element with the scrollbar: */
+  /* .your-scrollable-element { */
+  /* scrollbar-color: #6dd6ed #1e293b; */ /* thumb and track colors */
+  /* scrollbar-width: thin; */
+  /* } */
+  
+  /* For Internet Explorer and Edge */
+  /* You can use CSS properties like -ms-overflow-style on the element */
+  /* Example: */
+  /* .your-scrollable-element { */
+  /* -ms-overflow-style: auto; */
+  /* } */
+  /* And then potentially use vendor prefixes for styling the colors if needed */
